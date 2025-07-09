@@ -17,7 +17,7 @@ export default function App() {
   const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
   const testLambda = new Lambda();
   const testFunc = () => testLambda.invoke({
-    FunctionName: 'test',
+    FunctionName: 'Kirktest',
     Payload: {}
   })
   function listTodos() {
